@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./lib/slick-1.8.1/slick/slick-theme.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <title>theHam</title>
+</head>
+
+<body>
+    <section class="first-screen">
+        <header>
+            <div class="nav-wrapper">
+                <div class="header-logo">
+                    <a href="#">
+                        <svg width="58" height="67" viewbox="0 0 58 67" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="58" height="67" fill="url(#pattern0)" />
+                            <path d="M42 20V48H35.52V36.52H22.8V48H16.32V20H22.8V31.04H35.52V20H42Z" fill="white" />
+                            <defs>
+                                <pattern id="pattern0" patterncontentunits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_42505:3" transform="scale(0.0172414 0.0149254)" />
+                                </pattern>
+                                <image id="image0_42505:3" width="58" height="67"
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABDCAYAAADNlhYhAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAxpJREFUaIHt20FoHVUUxvGfExEKgYAgBAoupMGQoLRQLC6KpUX3EUVBBKVCsSgVs6m0S6VuKi2KghgUF6JE2o0rRTEggtKSUqkIDS0UAoVCoFAoBAIuTh6UR/o6M+/OTN6b998lb96957v3nHO/OyQPTS4vqpHDOI5PsID1uibOappnN/7CV9iFz3EFczXNX7nQCXyKC3im67NdOIffxUJUSpVC38BVvIOxHs89h2Wx25NVBVOF0KfwJ77GYwW+d1gszAnsSB1USqETOCN259mSY4zjQ/wnhCcjldDXRXDH9E7TvDwuUnlZpHbf9Ct0RjSTb1VTX7s3xz8nmldpygodx2lclmjFH8CcOI5OixIpTBmhr4g0fV+aNM3LI5tzXsPbmz/npojQGfyK77GzyCSJeVQJw5FH6DhOicZwsFRo1VDIcDxI6Eti5Y4rmCo1kstw3E/ok/gZi6LVDwI9DUe30B3iwL6M5ysPLT0dw3FVl+G4V+ic6KYnbN80zctOXYYjE0X9kyjsQUnTvHQMx7GHRZomN9HbjMnM8ItEpO6dpoOogwwbTQdRA+N1vTNqmrG2CJXhdtNB1EFbdnRUo0PHqEaHjIm2CG3Njo5qdNhoV4224fbSrvtoGxjV6NDRlhptze2lNffRUY0OG6MaHToyNf6FZZNkuNt0EDUwqtFhYz3DzaajqJhfMJvhLA7gUqPhpOcGXsYLWOmk7hL24C2Dv8Pr+Biz+LHzy+4aXcAUPjKY3fg3sWEf6HJ8WzWjOziJaSF8EFjFqziEf7d6oFfXvSFSeY9I7e3IhvjXkmn80OvBPMfLJdGsXsRKv5ElZAlPY16Oi0mRc/S8KPB5zb7dv4nXxOJvmaZbUdQwrItUeQJfqNcnb4ijcBrfFf1yWWe0hqNih8+XHKMIf4he8Z6S2dSvBVwRtXtANYbjFt7EfvzTz0CpvG5qw7GBz8SZ/k2C8ZK/qU9hOP7GXrwrYdOr4vbSMRxTihmONZER+1RQBlVe01blNxxfik5emROr4z7ay3BcFGl6RMVnc50X73sNx3Uhbq8QWzn/A5kFk+cEK0EoAAAAAElFTkSuQmCC" />
+                            </defs>
+                        </svg>
+                    </a>
+                    <h1 class="logo-text">
+                        <a href="" class="link-logo">the<span class="header-logo-highlighten">Ham</span></a>
+                    </h1>
+                </div>
+                <div class="navigation-block">
+                    <a href="#" class="nav-link">home</a>
+                    <a href="#" class="nav-link">about</a>
+                    <a href="#" class="nav-link">blog</a>
+                    <a href="#" class="nav-link">skills</a>
+                    <a href="#" class="nav-link">Service</a>
+                    <a href="#" class="nav-link">work</a>
+                    <a href="#" class="nav-link">testimonials</a>
+                    <img src="./img/icon/searchtop.svg" alt="search" class="search-block icon-search" />
+                </div>
+            </div>
+        </header>
+        <div class="title-firstcsreen">
+            <h3 class="title-one">
+                The Ham is <span class="title-highlighten">Wordpress theme</span>
+            </h3>
+            <h1 class="title-main">we are creative</h1>
+            <h4 class="title-sub-main">
+                Just Buy And Enjoy These Awesome Features
+            </h4>
+            <a href="#" class="btn explore-btn">EXPLORE NOW</a>
+            <a href="#" class="btn purchase-btn">purchase now</a>
+        </div>
+    </section>
+    <main>
+        <section class="options">
+            <div class="options-block same-block">
+                <img src="./img/options/hand.svg" alt="img" class="img-same" />
+                <h3 class="title-options same-title">Different theme option</h3>
+            </div>
+            <div class="options-block">
+                <img src="./img/options/diamond.svg" alt="img" class="img-options" />
+                <h3 class="title-options">fully customizable</h3>
+            </div>
+            <div class="options-block same-block">
+                <img src="./img/options/bulb.svg" alt="img" class="img-same" />
+                <h3 class="title-options same-title">unlimited support</h3>
+            </div>
+            <div class="options-block">
+                <img src="./img/options/computer.svg" alt="img" class="img-options" />
+                <h3 class="title-options">responsive all device</h3>
+            </div>
+        </section>
+        <section class="our-service section-wrapper">
+            <h2 class="title-service">Our Services</h2>
+            <div class="line-service"></div>
+            <div class="line-service two-line"></div>
+            <div class="wrapper-service">
+                <ul class="list-service">
+                    <li href="#" class="link-service active" data-list="#web">
+                        <div class="entry-trangle"></div>
+                        <h2>Web Design</h2>
+                    </li>
+                    <li href="#" class="link-service" data-list="#graph">
+                        <div class="entry-trangle"></div>
+                        <h2>Graphic Design</h2>
+                    </li>
+                    <li href="#" class="link-service" data-list="#sup">
+                        <div class="entry-trangle"></div>
+                        <h2>Online Support</h2>
+                    </li>
+                    <li href="#" class="link-service" data-list="#app">
+                        <div class="entry-trangle"></div>
+                        <h2>App Design</h2>
+                    </li>
+                    <li href="#" class="link-service" data-list="#mark">
+                        <div class="entry-trangle"></div>
+                        <h2>Online Marketing</h2>
+                    </li>
+                    <li href="#" class="link-service" data-list="#seo">
+                        <div class="entry-trangle"></div>
+                        <h2>Seo Service</h2>
+                    </li>
+                </ul>
+            </div>
+            <ul class="content-service">
+                    <li class="list-content active" id="web">
+                        <img src="./img/service/Image.png" alt="photo"  height="139px" width="194px">
+                        <p class="text-service">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                        </p>
+                    </li>
+                    <li class="list-content"  id="graph">
+                        <img src="./img/service/adobe.jpg" alt="photo"  height="139px" width="194px">
+                        <p class="text-service">
+                            Graphic design is the profession and academic discipline whose activity consists in
+                            projecting visual communications intended to transmit specific messages to social groups,
+                            with specific objectives. As opposed to art, whose aim is merely contemplation, design is
+                            based on the principle of "form follows a specific function".
+                        </p>
+                    </li>
+                    <li class="list-content"  id="sup">
+                        <img src="./img/service/support.png" alt="photo"  height="139px" width="194px">
+                        <p class="text-service">
+                            Online support is an online form of providing customer service and helping customers resolve
+                            various issues. It can be implemented, for example, via e-mail, social media or live chat.
+                            It also allows you to gain customer opinions and supports building relationships with them.
+                        </p>
+                    </li>
+                    <li class="list-content"  id="app">
+                        <img src="./img/service/inspiration-intro.png" alt="photo"  height="139px" width="194px">
+                        <p class="text-service">
+                            App design combines the user interface (UI) and user experience (UX). While UI lends itself
+                            to the overall style of the app (including the colors, fonts, and general look and feel), UX
+                            focuses on the actual functionality and usability.
+                        </p>
+                    </li>
+                    <li class="list-content"  id="mark">
+                        <img src="./img/service/marketing.png" alt="photo"  height="139px" width="194px" >
+                        <p class="text-service">
+                            Online marketing is a set of tools and methodologies used for promoting products and
+                            services through the internet. Online marketing includes a wider range of marketing elements
+                            than traditional business marketing due to the extra channels and marketing mechanisms
+                            available on the internet.
+                        </p>
+                    </li>
+                    <li class="list-content"  id="seo">
+                        <img src="./img/service/SEO.jpg" alt="photo" height="139px" width="194px">
+                        <p class="text-service">
+                            SEO services are services typically offered by an SEO agency that helps your company succeed
+                            in search engine optimization. With SEO, your business wants to increase its visibility in
+                            search results on search engines like Google and Bing. You specifically focus on search
+                            results related to your company, products, services, or industry.
+                        </p>
+                    </li>
+            </ul>
+        </section>
+        <section class="app">
+            <div class="content-app">
+                <h2 class="title-app">
+                    Everything is ready. just buy and install now
+                </h2>
+                <p class="text-app">
+                    Smooth reliable, responsive ready, perfect portfolio, unique bl
+                </p>
+                <a href="#" class="btn btn-app">purchase now</a>
+            </div>
+        </section>
+        <section class="amazing-work">
+            <div class="section-wrapper">
+                <h2 class="title-amazing">Our Amazing Work</h2>
+                <div class="line-service"></div>
+                <div class="line-service two-line"></div>
+                <ul class="list-filter">
+                    <li data-f="all"  class="link-filter filter-current">All</li>
+                    <li data-f="graphic"  class="link-filter">Graphic Design</li>
+                    <li data-f="web"  class="link-filter">Web Design</li>
+                    <li data-f="landing"  class="link-filter">Landing Pages</li>
+                    <li data-f="wordpress"  class="link-filter">Wordpress</li>
+                </ul>
+                <div class="block-amazing-img">
+                    <img class="box graphic" src="./img/all/graphic-design1.jpg" alt="img" />
+                    <img class="box web" src="./img/all/web-design4.jpg" alt="img" />
+                    <img class="box graphic" src="./img/all/graphic-design7.jpg" alt="img" />
+                    <img class="box landing" src="./img/all/landing-page7.jpg" alt="img" />
+                    <img class="box web" src="./img/all/web-design3.jpg" alt="img" />
+                    <img class="box wordpress" src="./img/all/wordpress10.jpg" alt="img" />
+                    <img class="box graphic" src="./img/all/graphic-design12.jpg" alt="img" />
+                    <img class="box wordpress" src="./img/all/wordpress4.jpg" alt="img" />
+                    <img class="box wordpress" src="./img/all/wordpress2.jpg" alt="img" />
+                    <img class="box graphic" src="./img/all/graphic-design6.jpg" alt="img" />
+                    <img class="box wordpress" src="./img/all/wordpress8.jpg" alt="img" />
+                    <img class="box web" src="./img/all/web-design2.jpg" alt="img" />
+                    <img class="box block-amazing-img-more hide wordpress" src="./img/all/wordpress9.jpg" alt="">
+                    <img class="box block-amazing-img-more hide wordpress" src="./img/all/wordpress7.jpg" alt="">
+                    <img class="box block-amazing-img-more hide wordpress" src="./img/all/wordpress6.jpg" alt="">
+                    <img class="box block-amazing-img-more hide web" src="./img/all/web-design7.jpg" alt="">
+                    <img class="box block-amazing-img-more hide web" src="./img/all/web-design1.jpg" alt="">
+                    <img class="box block-amazing-img-more hide web" src="./img/all/web-design5.jpg" alt="">
+                    <img class="box block-amazing-img-more hide landing" src="./img/all/landing-page5.jpg" alt="">
+                    <img class="box block-amazing-img-more hide landing" src="./img/all/landing-page2.jpg" alt="">
+                    <img class="box block-amazing-img-more hide landing" src="./img/all/landing-page3.jpg" alt="">
+                    <img class="box block-amazing-img-more hide graphic" src="./img/all/graphic-design7.jpg" alt="">
+                    <img class="box block-amazing-img-more hide graphic" src="./img/all/graphic-design5.jpg" alt="">
+                    <img class="box block-amazing-img-more hide graphic" src="./img/all/graphic-design10.jpg" alt="">                    
+                </div>
+                <div class="btn-more-img">                    
+                    <a class="load-btn show-btn" href="#">
+                        <img class="load-img" src="./img/icon/forma.svg" alt="#"/>Load More
+                    </a>
+                </div>                   
+            </div>
+        </section>
+        <section class="news section-wrapper">
+            <h2 class="main-title-news">Breaking News</h2>
+            <div class="line-service"></div>
+            <div class="line-service two-line"></div>
+            <div class="block-card-news">
+                <a class="card-news" href="#">
+                    <img src="./img/news/photo.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/fire.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/velo.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/people.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/bird.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/sport.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/travel.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+                <a class="card-news" href="#">
+                    <img src="./img/news/study.png" alt="img" />
+                    <h2 class="title-news">Amazing Blog Post</h2>
+                    <div class="block-text-news">
+                        <p class="text-news">By admin</p>
+                        <div class="line-news"></div>
+                        <p class="text-news">2 comment</p>
+                    </div>
+                    <span class="data-info-card">
+                        <h4 class="number-title margin-info">12</h4>
+                        <h4 class="number-title">Feb</h4>
+                    </span>
+                </a>
+            </div>
+        </section>
+        <section class="section-about-us">
+            <div class="content-block-us">
+                <h2 class="title-about">What People Say About theHam</h2>
+                <div class="line-service"></div>
+                <div class="line-service two-line"></div>
+                <div class="coma-icon">
+                    <img src="./img/icon/coma.svg" alt="img" />
+                </div>
+                <div class="slaider-main">
+                    <div class="slaid-main">
+                        <p class="text-about-us">
+                            If you stick a nuclear reactor to your heart, repaint your armored suit red, and solve the
+                            icing problem, even a mediocre billionaire genius can turn into Iron Man.
+                        </p>
+                        <h3 class="title-name">Iron Man</h3>
+                        <h4 class="title-profession">Super Hero</h4>
+                        <div class="img-slaid">
+                            <img class="main-slaid-img" src="./img/people/iro.png" alt="img" />
+                        </div>
+                    </div>
+                    <div class="slaid-main">
+                        <p class="text-about-us">
+                            They are hiding the strongest creature on the planet on a small farm in Kansas.
+                        </p>
+                        <h3 class="title-name">Batman</h3>
+                        <h4 class="title-profession">I am Batman</h4>
+                        <div class="img-slaid">
+                            <img class="main-slaid-img" src="./img/people/bt.png" alt="img" />
+                        </div>
+                    </div>
+                    <div class="slaid-main">
+                        <p class="text-about-us">
+                            My name is Matt Murdoch. I've been blinded by radiation, but my other senses have become
+                            incredibly acute. I live in Hell's Kitchen, and I try to keep the place in order. That's all
+                            there is to know about me.
+                        </p>
+                        <h3 class="title-name">Daredevil</h3>
+                        <h4 class="title-profession">Bad Boy</h4>
+                        <div class="img-slaid">
+                            <img class="main-slaid-img" src="./img/people/dv.png" alt="img" />
+                        </div>
+                    </div>
+                    <div class="slaid-main">
+                        <p class="text-about-us">
+                            Hi, I'm Captain America. And I'm going to talk about the most valuable quality for any
+                            soldier or apprentice. Patience. Sometimes patience is the key to victory, and sometimes it
+                            gets you nowhere, and it doesn't seem worth it. And you think...why wait so long, for
+                            something so unimportant...Can we stop?
+                        </p>
+                        <h3 class="title-name">Captain America</h3>
+                        <h4 class="title-profession">Guardian of Justice</h4>
+                        <div class="img-slaid">
+                            <img class="main-slaid-img" src="./img/people/am.png" alt="img" />
+                        </div>
+                    </div>
+                    <div class="slaid-main">
+                        <p class="text-about-us">
+                            I am Groot, I am Groot, I am Groot, I am Groot, I am Groot, I am Groot, I am Groot, I am
+                            Groot, I am Groot, I am Groot, I am Groot, I am Groot, I am Groot
+                        </p>
+                        <h3 class="title-name">Groot</h3>
+                        <h4 class="title-profession">I am Groot</h4>
+                        <div class="img-slaid">
+                            <img class="main-slaid-img" src="./img/people/groot.png" alt="img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-slider">
+                    <button id="arrow-slider-left"><img src="./img/icon/row.svg" alt="#"></button>
+                    <div class="block-slaider">
+                        <img class="slaid-img" src="./img/people/iro.png" alt="img" />
+                        <img class="slaid-img" src="./img/people/bt.png" alt="img" />
+                        <img class="slaid-img" src="./img/people/dv.png" alt="img" />
+                        <img class="slaid-img" src="./img/people/am.png" alt="img" />
+                        <img class="slaid-img" src="./img/people/groot.png" alt="img">
+                    </div>
+                    <button id="arrow-slider-right"><img src="./img/icon/row-right.svg" alt="#"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="content-footer">
+            <p class="text-footer">
+                &copy; Copyright 2015 <a href="#" class="logo-comp">theHam</a> | All
+                Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./lib/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
